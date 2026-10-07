@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">launching-free-tier-startups</title>
+  <desc id="desc">A coding-agent skill for choosing a startup stack and checking usage meters before deployment. The skill's five-layer reference is Cloudflare Workers for frontend, Convex Free for backend and database, Better Auth for authentication, PostHog for analytics, and Cloudflare R2 Standard for files. This is a reference specimen, not a screenshot. Free allowances do not guarantee a zero-cost bill.</desc>
+  <rect width="1200" height="430" rx="24" fill="#0A0A0A"/>
+  <g id="identity" font-family="Geist, sans-serif" font-weight="500">
+    <text x="56" y="64" fill="#F97316" font-family="ZedMono, monospace" font-size="20" font-weight="400">a coding-agent skill</text>
+    <g fill="#FAFAFA" font-size="96" font-weight="700" letter-spacing="-3">
+      <text x="52" y="151">launching</text>
+      <text x="52" y="241">free-tier</text>
+      <text x="52" y="331">startups</text>
+    </g>
+    <text x="56" y="383" fill="#A1A1AA" font-size="22">check the meters before you deploy.</text>
+  </g>
+  <g id="five-layer-reference" font-family="Geist, sans-serif" font-weight="500">
+    <rect x="688" y="56" width="456" height="288" rx="12" fill="#1C1C1F"/>
+    <text x="712" y="94" fill="#A1A1AA" font-size="20">five-layer reference</text>
+    <g fill="#A1A1AA" font-family="ZedMono, monospace" font-size="20" font-weight="400">
+      <text x="712" y="140">frontend</text>
+      <text x="712" y="184">backend + db</text>
+      <text x="712" y="228">auth</text>
+      <text x="712" y="272">analytics</text>
+      <text x="712" y="316">files</text>
+    </g>
+    <g fill="#FAFAFA" font-size="22" text-anchor="end">
+      <text x="1120" y="140">Cloudflare Workers</text>
+      <text x="1120" y="184">Convex Free</text>
+      <text x="1120" y="228">Better Auth</text>
+      <text x="1120" y="272">PostHog</text>
+      <text x="1120" y="316">R2 Standard</text>
+    </g>
+  </g>
+  <g id="install-call-to-action" font-family="Geist, sans-serif" font-weight="500">
+    <rect x="688" y="368" width="456" height="40" rx="8" fill="#F97316"/>
+    <text x="916" y="395" fill="#0A0A0A" font-size="20" text-anchor="middle">install the skill</text>
+  </g>
+</svg>

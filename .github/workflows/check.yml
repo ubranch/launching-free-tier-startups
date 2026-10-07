@@ -1,0 +1,33 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+        with:
+          bun-version: 1.4.2
+      - name: Validate repository
+        run: bun scripts/check.ts
+      - name: Validate artwork and generator syntax
+        run: |
+          python3 - <<'PY'
+          import ast
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for artwork in Path("assets/readme").rglob("*.svg"):
+              ET.parse(artwork)
+          ast.parse(Path("scripts/outline_hero.py").read_text())
+          PY

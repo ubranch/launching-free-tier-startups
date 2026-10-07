@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-labelledby="better-auth-title better-auth-desc">
+  <title id="better-auth-title">Better Auth</title>
+  <desc id="better-auth-desc">The white Better Auth mark on a rounded near-black tile.</desc>
+  <rect width="72" height="72" rx="16" fill="#1C1C1F"/>
+  <path fill="#FFFFFF" transform="translate(14 14) scale(1.8333333333)" d="M0 3.39v17.22h5.783V15.06h6.434V8.939H5.783V3.39ZM12.217 8.94h5.638v6.122h-5.638v5.548H24V3.391H12.217Z"/>
+</svg>
